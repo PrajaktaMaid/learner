@@ -1,9 +1,9 @@
-# Store input numbers
-num1 = input('Enter first number: ')
-num2 = input('Enter second number: ')
+# Python String Operations
+str1 = 'Hello'
+str2 ='World!'
 
-# Add two numbers
-sum = float(num1) + float(num2)
+# using +
+print('str1 + str2 = ', str1 + str2)
 
-# Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+# using *
+print('str1 * 3 =', str1 * 3)
